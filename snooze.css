@@ -1,8 +1,12 @@
 :root {
-	--lawn: rgb(90, 210, 90);
-	--moss: rgb(120, 210, 210);
+	  --lawn: rgb(90, 210, 90);
+	  --moss: rgb(120, 210, 210);
+    --rain: rgb(90, 180, 250);
+    --pour: rgb(90, 150, 240);
     --pulp: rgb(180, 90, 240);
-    --rain: rgb(90, 150, 240);
+    --plur: rgb(150, 108, 250);
+    --pynk: rgb(240, 120, 250); 
+    --punk: rgb(250, 120, 230);
     --volt: rgb(240, 240, 30);
     --wind: rgb(150, 210, 240);
     --ink: rgb(30, 30, 20);
@@ -16,8 +20,12 @@
 
 .lawn { --hue: var(--lawn) }
 .moss { --hue: var(--moss) }
-.pulp { --hue: var(--pulp) }
 .rain { --hue: var(--rain) }
+.pour { --hue: var(--pour) }
+.pulp { --hue: var(--pulp) }
+.plur { --hue: var(--plur) }
+.punk { --hue: var(--punk) }
+.pynk { --hue: var(--pynk) }
 .volt { --hue: var(--volt) }
 .wind { --hue: var(--wind) }
 
