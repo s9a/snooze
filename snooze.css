@@ -1,15 +1,15 @@
 :root {
 	--lawn: rgb(90, 210, 90);
 	--moss: rgb(120, 210, 210);
-  --pulp: rgb(180, 90, 240);
-  --rain: rgb(90, 150, 240);
-  --volt: rgb(240, 240, 30);
-  --wind: rgb(150, 210, 240);
-  --ink: rgb(30, 30, 20);
+    --pulp: rgb(180, 90, 240);
+    --rain: rgb(90, 150, 240);
+    --volt: rgb(240, 240, 30);
+    --wind: rgb(150, 210, 240);
+    --ink: rgb(30, 30, 20);
 }
 
 .hue {
-	--hue: orange;
+  --hue: orange;
   background: var(--hue);
   color: var(--ink);
 }
@@ -79,8 +79,8 @@ textarea {
 }
 
 button {
-	border-radius: 50% 50% 0 0;
-	border-style: none;
+  border-radius: 50% 50% 0 0;
+  border-style: none;
   display: inline-flex;
   flex-basis: 20vh;
   font: inherit;

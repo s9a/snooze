@@ -13,11 +13,9 @@
 	var form = mood.querySelector("form")
 	var eucalyptus = form.snooze
 	
-	function tell(element, value) {
-    if (element.value != value) { 
-    	element.value = value
-    }
-  }
+	function tell(el, v) {
+    el.value == v || (el.value = v)
+	}
 	
 	function look() {
 		var mind = mime.local("snooze")
@@ -30,7 +28,7 @@
 		ev === mime.local("snooze") || mime.local("snooze", ev)	
 		setTimeout(save, 1111)
 	}
-	
+
 	look()
 	setTimeout(save, 1111)
 }(this);
